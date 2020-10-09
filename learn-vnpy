@@ -1,0 +1,29 @@
+1、安装几个软件（选择pycharm-professional-2020.1是为了好破解）
+ 
+ 
+Pycharm破解工具为下图，破解步骤按照压缩包里的说明。很简单。2020.2好像不能破解
+ 
+2、在vnstudio文件夹中创建Project\vnpy2.1.6这两个文件夹
+ 
+3、去vnstudio目录下
+ 
+剪切两个文件夹
+ 
+到vnpy2.1.6文件夹下
+ 
+4、在vnpy2.1.6文件夹下创建新文件夹run
+ 
+ 
+这里的run.py是github上vnpy项目的examples（例子），下载到本地解压后
+ 
+在vn_trader文件夹中的run.py复制到run文件夹中，并进行修改。修改原则就是将需要用到的API接口留下，其余的接口都保持注释状态。
+
+
+5、之后就是pycharm的操作：
+通过pycharm打开vnpy2.1.6文件夹，然后配置python虚拟环境，
+File > settings > 找到Python Interpreter > 
+ 
+鼠标位置点击Add > 选择Existing environment > 找到vnstudio里面的python.exe
+ 
+等待加载vnstudio中的包，加载成功后就可以运行run.py了。
+6、到此vnpy的环境就搭建完成。不用登录vnpy社区。
